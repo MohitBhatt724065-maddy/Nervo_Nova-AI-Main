@@ -13,10 +13,10 @@
 - So, Without a logging system, if something silently fails duriing any of these steps, then there is absolutely no way to know where,when or why it broke.
 -So, I understand about a logger:- A logger is a essential diary that records everything happening inside the application with the timestamps and severity level giving full visibility into the systems behavior at all the time and keeps updated.
 - Then I configured the project logger using Python’s logging module as:-
-                                     `import logging
-                                   `logging.basicConfig(`
-                                       `level=logging.DEBUG,`
-                                       `format="%(asctime)s %(levelname)s %(messages)s",`
-                                   `)`
-                                   `logger = logging.getLogger("NervoNova")`
+-                                     `import logging
+-                                  `logging.basicConfig(`
+-                                      `level=logging.DEBUG,`
+-                                      `format="%(asctime)s %(levelname)s %(messages)s",`
+-                                  `)`
+-                                   `logger = logging.getLogger("NervoNova")`
 -
